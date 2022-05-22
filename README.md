@@ -21,7 +21,8 @@ Sample output:
     "device_name": "Fingerbot Plus",
     "product_name": "Fingerbot Plus",
     "uuid": "tuyaea0e********",
-    "local_key": "24e3735b********"
+    "local_key": "24e3735b********",
+    "mac_address": "DC:12:23:**:**:**"
   }
 ]
 ```
