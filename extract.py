@@ -31,7 +31,8 @@ device_manager.update_device_list_in_smart_home()
 devices = []
 for tuya_device in device_manager.device_map.values():
     device = {
-        'name': tuya_device.name,
+        'device_id': tuya_device.id,
+        'device_name': tuya_device.name,
         'product_name': tuya_device.product_name,
         'uuid': tuya_device.uuid,
         'local_key': tuya_device.local_key,
