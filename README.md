@@ -19,7 +19,9 @@ Sample output:
   {
     "device_id": "ce058fxe********",
     "device_name": "Fingerbot Plus",
+    "product_id": "blliqpsj",
     "product_name": "Fingerbot Plus",
+    "category": "szjqr",
     "uuid": "tuyaea0e********",
     "local_key": "24e3735b********",
     "mac_address": "DC:12:23:**:**:**"
