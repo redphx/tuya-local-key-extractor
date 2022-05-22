@@ -2,35 +2,22 @@ import json
 import logging
 import os
 
-from enum import Enum
+from config import (
+    ENDPOINT,
+    APP,
+    EMAIL,
+    PASSWORD,
+    ACCESS_ID,
+    ACCESS_KEY,
+)
+
 from tuya_iot import (
     TuyaOpenAPI,
     AuthType,
     TuyaOpenMQ,
     TuyaDeviceManager,
-    TuyaCloudOpenAPIEndpoint,
-    TUYA_LOGGER,
 )
 
-
-class AppType(Enum):
-    TUYA_SMART = 'tuyaSmart'
-    SMART_LIFE = 'smartlife'
-
-# Select server. More info: https://github.com/tuya/tuya-iot-python-sdk/blob/main/tuya_iot/tuya_enums.py
-ENDPOINT = TuyaCloudOpenAPIEndpoint.AMERICA
-
-# Change to AppType.SMART_LIFE for Smart Life app
-APP = AppType.TUYA_SMART
-# Your Tuya Smart/Smart Life account
-EMAIL = ''
-PASSWORD = ''
-
-# Get these info on https://iot.tuya.com
-ACCESS_ID = ''
-ACCESS_KEY = ''
-
-# TUYA_LOGGER.setLevel(logging.DEBUG)
 
 openapi = TuyaOpenAPI(ENDPOINT, ACCESS_ID, ACCESS_KEY, AuthType.SMART_HOME)
 openapi.connect(EMAIL, PASSWORD, country_code=84, schema=APP.value)
