@@ -17,7 +17,8 @@ Sample output:
 ```json
 [
   {
-    "name": "Fingerbot Plus",
+    "device_id": "ce058fxe********",
+    "device_name": "Fingerbot Plus",
     "product_name": "Fingerbot Plus",
     "uuid": "tuyaea0e********",
     "local_key": "24e3735b********"
