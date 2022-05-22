@@ -33,7 +33,9 @@ for tuya_device in device_manager.device_map.values():
     device = {
         'device_id': tuya_device.id,
         'device_name': tuya_device.name,
+        'product_id': tuya_device.product_id,
         'product_name': tuya_device.product_name,
+        'category': tuya_device.category,
         'uuid': tuya_device.uuid,
         'local_key': tuya_device.local_key,
     }
@@ -44,8 +46,8 @@ for tuya_device in device_manager.device_map.values():
         if 'mac' in factory_info:
             mac = ':'.join(factory_info['mac'][i:i + 2] for i in range(0, 12, 2))
             device['mac_address'] = mac
-    except Exception:
-        pass
+    except Exception as e:
+        print(e)
 
     devices.append(device)
 
