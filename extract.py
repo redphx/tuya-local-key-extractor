@@ -4,6 +4,7 @@ import os
 
 from config import (
     ENDPOINT,
+    COUNTRY_CODE,
     APP,
     EMAIL,
     PASSWORD,
@@ -20,7 +21,7 @@ from tuya_iot import (
 
 
 openapi = TuyaOpenAPI(ENDPOINT, ACCESS_ID, ACCESS_KEY, AuthType.SMART_HOME)
-openapi.connect(EMAIL, PASSWORD, country_code=84, schema=APP.value)
+openapi.connect(EMAIL, PASSWORD, country_code=COUNTRY_CODE, schema=APP.value)
 
 openmq = TuyaOpenMQ(openapi)
 openmq.start()
