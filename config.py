@@ -11,6 +11,10 @@ class AppType(Enum):
 # More info: https://github.com/tuya/tuya-iot-python-sdk/blob/main/tuya_iot/tuya_enums.py
 ENDPOINT = TuyaCloudOpenAPIEndpoint.AMERICA
 
+# Calling country code. For example: USA = 1
+# Full list: https://en.wikipedia.org/wiki/List_of_country_calling_codes#Alphabetical_order
+COUNTRY_CODE = 1
+
 # Change to AppType.SMART_LIFE for Smart Life app
 APP = AppType.TUYA_SMART
 
