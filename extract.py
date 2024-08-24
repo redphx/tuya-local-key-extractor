@@ -47,7 +47,7 @@ for tuya_device in device_manager.device_map.values():
         resp = openapi.get('/v1.0/devices/factory-infos?device_ids={}'.format(tuya_device.id))
         factory_info = resp['result'][0]
         if 'mac' in factory_info:
-            mac = factory_info['mac']
+            mac = factory_info['mac'].upper()
             if not mac_format.match(mac):
                 mac = ':'.join(factory_info['mac'][i:i + 2] for i in range(0, 12, 2))
             device['mac_address'] = mac
