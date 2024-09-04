@@ -1,6 +1,7 @@
 import json
 import logging
 import os
+import re
 
 from config import (
     ENDPOINT,
@@ -19,6 +20,7 @@ from tuya_iot import (
     TuyaDeviceManager,
 )
 
+mac_format = re.compile(r"(?:[0-9A-Fa-f]{2}\:){5}(?:[0-9A-Fa-f]{2})")
 
 openapi = TuyaOpenAPI(ENDPOINT, ACCESS_ID, ACCESS_KEY, AuthType.SMART_HOME)
 openapi.connect(EMAIL, PASSWORD, country_code=COUNTRY_CODE, schema=APP.value)
@@ -42,10 +44,12 @@ for tuya_device in device_manager.device_map.values():
     }
 
     try:
-        resp = openapi.get('/v1.0/iot-03/devices/factory-infos?device_ids={}'.format(tuya_device.id))
+        resp = openapi.get('/v1.0/devices/factory-infos?device_ids={}'.format(tuya_device.id))
         factory_info = resp['result'][0]
         if 'mac' in factory_info:
-            mac = ':'.join(factory_info['mac'][i:i + 2] for i in range(0, 12, 2))
+            mac = factory_info['mac'].upper()
+            if not mac_format.match(mac):
+                mac = ':'.join(factory_info['mac'][i:i + 2] for i in range(0, 12, 2))
             device['mac_address'] = mac
     except Exception as e:
         print(e)
