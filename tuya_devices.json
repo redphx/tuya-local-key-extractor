@@ -1,0 +1,132 @@
+[
+  {
+    "device_id": "eb90dce8225243bf64wdle",
+    "device_name": "Downlight 9",
+    "product_id": "ax5m3q1aub7f7zzx",
+    "product_name": "Downlight",
+    "category": "xdd",
+    "uuid": "223bab156ce4e73c",
+    "local_key": "CcZA-I{hAtA(R<;=",
+    "mac_address": "FC:3C:D7:D9:C5:8F"
+  },
+  {
+    "device_id": "eb4b45b9420745970d8ulu",
+    "device_name": "Downlight 8",
+    "product_id": "ax5m3q1aub7f7zzx",
+    "product_name": "Downlight",
+    "category": "xdd",
+    "uuid": "9d2dae900b86b6ef",
+    "local_key": "k61j'LVMHrhqjMPv",
+    "mac_address": "FC:3C:D7:D9:CD:4F"
+  },
+  {
+    "device_id": "ebb692f1e2aa7b8839ff08",
+    "device_name": "Downlight 25",
+    "product_id": "ax5m3q1aub7f7zzx",
+    "product_name": "Downlight",
+    "category": "xdd",
+    "uuid": "a9ddef1399cf1c6c",
+    "local_key": ":/uLT$B'u_R+l}lX",
+    "mac_address": "FC:3C:D7:3D:64:1B"
+  },
+  {
+    "device_id": "ebc8ce505755a9893eh6rn",
+    "device_name": "Sabu2",
+    "product_id": "ax5m3q1aub7f7zzx",
+    "product_name": "Downlight",
+    "category": "xdd",
+    "uuid": "6f4fbbc8aa13ba35",
+    "local_key": "'f7=qZyX]OG-SV$]",
+    "mac_address": "FC:3C:D7:3D:6C:87"
+  },
+  {
+    "device_id": "eb5316f4774023e6ce64rb",
+    "device_name": "Downlight 6",
+    "product_id": "ax5m3q1aub7f7zzx",
+    "product_name": "Downlight",
+    "category": "xdd",
+    "uuid": "0b754d053caeba05",
+    "local_key": "sN>jR`2~)=s1D_Oa",
+    "mac_address": "FC:3C:D7:3D:66:F5"
+  },
+  {
+    "device_id": "eb2cf01cbfb606673dyvgu",
+    "device_name": "Downlight 5",
+    "product_id": "ax5m3q1aub7f7zzx",
+    "product_name": "Downlight",
+    "category": "xdd",
+    "uuid": "6237be71319448cc",
+    "local_key": "VHw?280>`vEWK:_'",
+    "mac_address": "FC:3C:D7:3D:64:B8"
+  },
+  {
+    "device_id": "eb45af1d76962091a4aswi",
+    "device_name": "Downlight",
+    "product_id": "ax5m3q1aub7f7zzx",
+    "product_name": "Downlight",
+    "category": "xdd",
+    "uuid": "945b4fdd54aa5b46",
+    "local_key": "ZFf9&SgY'H@vUF~_",
+    "mac_address": "FC:3C:D7:D9:A8:DF"
+  },
+  {
+    "device_id": "ebe17f35231398543epa9t",
+    "device_name": "Downlight 4",
+    "product_id": "ax5m3q1aub7f7zzx",
+    "product_name": "Downlight",
+    "category": "xdd",
+    "uuid": "0f8f70011fc759df",
+    "local_key": ".y)7'Nj51~&i'~|/",
+    "mac_address": "FC:3C:D7:D9:B1:34"
+  },
+  {
+    "device_id": "ebe624c80640a269416hdz",
+    "device_name": "Downlight 3",
+    "product_id": "ax5m3q1aub7f7zzx",
+    "product_name": "Downlight",
+    "category": "xdd",
+    "uuid": "8667cacf4d0626a9",
+    "local_key": "PLEVw+{-R`l3;&Mz",
+    "mac_address": "FC:3C:D7:D9:B8:BA"
+  },
+  {
+    "device_id": "ebe5b0fa099b19792d7dcy",
+    "device_name": "Downlight 2",
+    "product_id": "ax5m3q1aub7f7zzx",
+    "product_name": "Downlight",
+    "category": "xdd",
+    "uuid": "95a9e5908f12a1df",
+    "local_key": "p2F0gqDMplGX~e@m",
+    "mac_address": "FC:3C:D7:3D:84:91"
+  },
+  {
+    "device_id": "eb6a62c48f5ddce011lj78",
+    "device_name": "Sabu1",
+    "product_id": "ax5m3q1aub7f7zzx",
+    "product_name": "Downlight",
+    "category": "xdd",
+    "uuid": "e071619bc5d4505d",
+    "local_key": "2xxUzx&*B5+FJ-Za",
+    "mac_address": "FC:3C:D7:D9:AE:94"
+  },
+  {
+    "device_id": "ebe3e962aaa0efef4fifvy",
+    "device_name": "Downlight 24",
+    "product_id": "ax5m3q1aub7f7zzx",
+    "product_name": "Downlight",
+    "category": "xdd",
+    "uuid": "75c1e2e2d920ede3",
+    "local_key": "Wh?:{=6H!.N=$*Fp",
+    "mac_address": "FC:3C:D7:3D:7A:CA"
+  },
+  {
+    "device_id": "eb57043e818c860befaxrv",
+    "device_name": "EL-BSP-001",
+    "product_id": "h9nyxfc1ictn4ej0",
+    "product_name": "EL-BSP-001",
+    "category": "dd",
+    "uuid": "f6a8318ef24bdf00",
+    "local_key": "bw:-cF_]W)}!hob3",
+    "mac_address": "CC:8C:BF:E0:10:73"
+  }
+]

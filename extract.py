@@ -56,5 +56,11 @@ for tuya_device in device_manager.device_map.values():
 
     devices.append(device)
 
-print(json.dumps(devices, indent=2))
+output = json.dumps(devices, indent=2)
+print(output)
+
+# Save to file
+with open('tuya_devices.json', 'w') as f:
+    f.write(output)
+
 os._exit(0)
